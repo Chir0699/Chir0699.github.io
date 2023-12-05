@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Forum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .thread {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .thread-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .thread-content {
+            margin-bottom: 1rem;
+        }
+
+        .post {
+            background-color: #e0e0e0;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .post-content {
+            margin-bottom: 1rem;
+        }
+
+        .post-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .post-footer .author {
+            font-weight: bold;
+        }
+
+        .post-footer .timestamp {
+            color: #777;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>English Forum</h1>
+    </header>
+
+    <main>
+        <div class="thread">
+            <h2 class="thread-title">Pronunciation</h2>
+            <p class="thread-content">This thread is for discussing English pronunciation.</p>
+        </div>
+
+        <div class="post">
+            <p class="post-content">Hi, I'm a beginner and having trouble with the 'r' sound. Can someone help me?</p>
+            <div class="post-footer">
+                <span class="author">pushpa</span>
+                <span class="timestamp">30 minutes ago</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <p class="post-content">Sure! The 'r' sound is made with your tongue. Here's a simple exercise to help you:</p>
+            <ul>
+                <li>Say the letter 'r' slowly, and make sure your tongue is touching the roof of your mouth.</li>
+                <li>Practice saying words that contain the 'r' sound, like "red," "rain," and "read."</li>
+            </ul>
+            <div class="post-footer">
+                <span class="author">Reddy</span>
+                <span class="timestamp">15 minutes ago</span>
+            </div>
+        </div>
+
+        <button>Create New Post</button>
+    </main>
+</body>
+</html>

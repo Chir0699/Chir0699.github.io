@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+		 background-image: url('groot.jpg');
+		 background-size: cover;
+		 background-position: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #4caf50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .course {
+            background-color: lavender;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .course img {
+            width: 100%;
+            height: auto;
+        }
+
+        .course h2 {
+            margin: 10px 0;
+        }
+
+        .course p {
+            color: #777;
+        }
+
+        footer {
+            background-color: #4caf50;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Language Learning Platform</h1>
+        </header>
+        <main>
+            <h2>Choose a course:</h2>
+            <div class="courses">
+                <div class="course">
+                    <img src="https://source.unsplash.com/random?english" alt="English Course">
+                    <h2>English</h2>
+                    <p>Level: Beginner</p>
+			<a href="english.html" target="_blank">Learn English</a>
+                </div>
+                <div class="course">
+                    <img src="https://source.unsplash.com/random?Spanish" alt="Spanish Course">
+                    <h2>Spanish</h2>
+                    <p>Level: Intermediate</p>
+			<a href="spanish index.html" target="_blank">Learn Spanish</a>
+                </div>
+                <div class="course">
+                    <img src="https://source.unsplash.com/random?French" alt="french Course">
+                    <h2>French</h2>
+                    <p>Level: Advanced</p>
+			<a href="french.html" target="_blank">Learn French</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2022 Language Learning Platform. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
